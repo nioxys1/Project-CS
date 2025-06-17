@@ -1,0 +1,14 @@
+{
+  "vcenter": "vcenter.entreprise.com", // ur ip address
+  "username": "adminstrator@vsphere.local",
+  "password": "password",
+  "template": "Template-Ubuntu-20.04",
+  "vm_name": "WebServer-01",
+  "cpu": 2,
+  "memory": 4096,
+  "disk": 50,
+  "network": "VLAN_100",
+  "ip_address": "192.168.1.100",
+  "datastore": "Datastore1",
+  "cluster": "Cluster1"
+}
