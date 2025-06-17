@@ -1,0 +1,401 @@
+[2025-06-01 14:50:46] Loaded users from file: [1, adam, test, haribo, hello]
+[2025-06-01 14:50:46] Server started on port 12345
+[2025-06-01 14:50:58] Loaded users from file: [1, adam, test, haribo, hello]
+[2025-06-01 14:50:58] Server started on port 12345
+[2025-06-01 14:51:02] New connection from /127.0.0.1
+[2025-06-01 14:51:05] LOGIN: test SUCCESS
+[2025-06-01 14:51:07] VOTE: test -> Bob
+[2025-06-01 14:51:07] RESULTS requested
+[2025-06-01 14:53:20] LOGIN: 1 SUCCESS
+[2025-06-01 14:53:21] VOTE: 1 -> Charlie
+[2025-06-01 14:53:21] RESULTS requested
+[2025-06-03 07:12:59] LOGIN: test SUCCESS
+[2025-06-03 07:13:02] RESULTS requested
+[2025-06-03 07:13:28] LOGIN: 333 FAILED
+[2025-06-03 07:13:36] LOGIN: 333 FAILED
+[2025-06-03 07:13:50] LOGIN: ui FAILED
+[2025-06-03 07:13:50] LOGIN: ui FAILED
+[2025-06-03 07:13:50] LOGIN: ui FAILED
+[2025-06-03 07:14:41] Loaded users from file: [1, adam, 2test, 333, test, ui, haribo, hello]
+[2025-06-03 07:14:41] Server started on port 12345
+[2025-06-03 07:14:46] New connection from /127.0.0.1
+[2025-06-03 07:14:51] LOGIN: test SUCCESS
+[2025-06-03 07:14:55] VOTE: test -> Charlie
+[2025-06-03 07:14:55] RESULTS requested
+[2025-06-03 07:15:52] LOGIN: hola FAILED
+[2025-06-03 07:15:53] LOGIN: hola FAILED
+[2025-06-03 07:15:53] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:15:54] LOGIN: hola FAILED
+[2025-06-03 07:16:43] Loaded users from file: [1, adam, 2test, 333, test, ui, haribo, hello, hola]
+[2025-06-03 07:16:43] Server started on port 12345
+[2025-06-03 07:17:10] New connection from /127.0.0.1
+[2025-06-03 07:17:13] LOGIN: test SUCCESS
+[2025-06-03 07:17:14] VOTE: test -> Bob
+[2025-06-03 07:17:14] RESULTS requested
+[2025-06-03 07:17:21] LOGIN: ah FAILED
+[2025-06-03 07:17:29] LOGIN: ui SUCCESS
+[2025-06-03 07:17:30] VOTE: ui -> Bob
+[2025-06-03 07:17:30] RESULTS requested
+[2025-06-03 07:30:28] Loaded 10 users from file
+[2025-06-03 07:30:28] AES-encrypted voting server started on port 12345
+[2025-06-03 07:30:36] New encrypted connection from /127.0.0.1
+[2025-06-03 07:30:56] Encrypted connection error: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+[2025-06-03 07:30:57] New encrypted connection from /127.0.0.1
+[2025-06-03 07:32:32] Encrypted connection error: javax.crypto.BadPaddingException: Given final block not properly padded. Such issues can arise if a bad key is used during decryption.
+[2025-06-03 07:33:42] Loaded users from file: [1, adam, 2test, 333, test, ui, ah, qwerty, haribo, hello, hola]
+[2025-06-03 07:33:42] Server started on port 12345
+[2025-06-03 07:33:54] New connection from /127.0.0.1
+[2025-06-03 07:33:56] LOGIN: test SUCCESS
+[2025-06-03 07:33:58] VOTE: test -> Bob
+[2025-06-03 07:33:58] RESULTS requested
+[2025-06-03 07:34:06] LOGIN: test11 FAILED
+[2025-06-03 07:37:58] Loaded users from file: [adam, test, test11, ah, qwerty, hola, 1, 2test, 333, ui, haribo, hello]
+[2025-06-03 07:37:58] Server started on port 12345
+[2025-06-03 07:38:09] New connection from /127.0.0.1
+[2025-06-03 07:38:15] Loaded users from file: [gh, adam, test, test11, ah, qwerty, hola, 1, 2test, 333, ui, haribo, hello]
+[2025-06-03 07:38:15] LOGIN: gh SUCCESS
+[2025-06-03 07:53:24] Loaded 13 users from file
+[2025-06-03 07:53:24] Created new votes file
+[2025-06-03 07:53:24] Server started on port 12345
+[2025-06-03 07:53:34] New connection from /127.0.0.1
+[2025-06-03 07:53:37] Loaded 13 users from file
+[2025-06-03 07:53:37] LOGIN: test SUCCESS
+[2025-06-03 07:53:38] Saved vote to file: test:Alice
+[2025-06-03 07:53:38] VOTE: test -> Alice
+[2025-06-03 07:53:38] RESULTS requested
+[2025-06-03 07:53:41] Loaded 13 users from file
+[2025-06-03 07:53:41] LOGIN: test SUCCESS
+[2025-06-03 07:53:41] RESULTS requested
+[2025-06-03 07:53:44] Loaded 13 users from file
+[2025-06-03 07:53:44] LOGIN: ui SUCCESS
+[2025-06-03 07:53:45] Saved vote to file: ui:Bob
+[2025-06-03 07:53:45] VOTE: ui -> Bob
+[2025-06-03 07:53:45] RESULTS requested
+[2025-06-03 07:53:51] New connection from /127.0.0.1
+[2025-06-03 07:53:54] Loaded 13 users from file
+[2025-06-03 07:53:54] LOGIN: ui SUCCESS
+[2025-06-03 07:53:54] RESULTS requested
+[2025-06-03 08:35:36] Loaded 13 users
+[2025-06-03 08:35:36] Loaded 2 votes
+[2025-06-03 08:36:48] Loaded 13 users
+[2025-06-03 08:36:48] Loaded 2 votes
+[2025-06-03 08:36:48] Server started on port 12345 | Voting deadline: 2025-06-01T18:00
+[2025-06-03 08:37:23] New connection from /127.0.0.1
+[2025-06-03 08:37:25] Loaded 13 users
+[2025-06-03 08:37:25] LOGIN: test SUCCESS
+[2025-06-03 08:37:26] RESULTS requested
+[2025-06-03 08:37:55] Loaded 13 users
+[2025-06-03 08:37:55] LOGIN: ui SUCCESS
+[2025-06-03 08:37:55] RESULTS requested
+[2025-06-03 08:38:47] Loaded 13 users
+[2025-06-03 08:38:47] Loaded 2 votes
+[2025-06-03 08:38:47] Server started on port 12345 | Voting deadline: 2025-06-03T08:39
+[2025-06-03 08:38:57] New connection from /127.0.0.1
+[2025-06-03 08:38:59] Loaded 13 users
+[2025-06-03 08:38:59] LOGIN: test SUCCESS
+[2025-06-03 08:39:00] RESULTS requested
+[2025-06-03 08:39:21] Loaded 13 users
+[2025-06-03 08:39:21] LOGIN: 11 FAILED
+[2025-06-03 08:39:23] Loaded 13 users
+[2025-06-03 08:39:23] LOGIN: 1 SUCCESS
+[2025-06-03 08:39:24] VOTE attempt 0 minutes after deadline
+[2025-06-03 08:39:24] RESULTS requested
+[2025-06-03 08:39:27] Loaded 13 users
+[2025-06-03 08:39:27] LOGIN: 2 FAILED
+[2025-06-03 08:39:29] Loaded 13 users
+[2025-06-03 08:39:29] LOGIN: 1 SUCCESS
+[2025-06-03 08:39:35] VOTE attempt 0 minutes after deadline
+[2025-06-03 08:39:35] RESULTS requested
+[2025-06-03 08:39:38] Loaded 13 users
+[2025-06-03 08:39:38] LOGIN: 1 SUCCESS
+[2025-06-03 08:39:49] VOTE attempt 0 minutes after deadline
+[2025-06-03 08:39:49] RESULTS requested
+[2025-06-03 08:40:04] Loaded 13 users
+[2025-06-03 08:40:04] Loaded 2 votes
+[2025-06-03 08:40:04] Server started on port 12345 | Voting deadline: 2025-06-03T08:50
+[2025-06-03 08:40:18] New connection from /127.0.0.1
+[2025-06-03 08:40:19] Loaded 13 users
+[2025-06-03 08:40:19] LOGIN: 1 SUCCESS
+[2025-06-03 08:40:21] Saved vote: 1 -> Bob
+[2025-06-03 08:40:21] VOTE: 1 -> Bob
+[2025-06-03 08:40:21] RESULTS requested
+[2025-06-03 09:38:37] Loaded 13 users
+[2025-06-03 09:38:37] Loaded 3 votes
+[2025-06-03 09:38:37] Server started on port 12345 | Voting deadline: 2025-06-03T08:50
+[2025-06-03 09:40:00] New connection from /127.0.0.1
+[2025-06-03 09:40:03] Loaded 13 users
+[2025-06-03 09:40:03] LOGIN: test SUCCESS
+[2025-06-03 09:40:04] RESULTS requested
+[2025-06-03 09:40:30] Loaded 13 users
+[2025-06-03 09:40:30] LOGIN: 1 SUCCESS
+[2025-06-03 09:40:31] RESULTS requested
+[2025-06-03 09:40:48] Loaded 14 users
+[2025-06-03 09:40:48] LOGIN: test112 SUCCESS
+[2025-06-03 09:40:50] VOTE attempt 50 minutes after deadline
+[2025-06-03 09:40:50] RESULTS requested
+[2025-06-03 09:43:34] Loaded 14 users
+[2025-06-03 09:43:34] LOGIN: test SUCCESS
+[2025-06-03 09:43:34] RESULTS requested
+[2025-06-03 10:47:48] Loaded 14 users
+[2025-06-03 10:47:48] Loaded 3 votes
+[2025-06-03 10:47:48] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 10:47:54] New connection from /127.0.0.1
+[2025-06-03 10:47:56] Loaded 14 users
+[2025-06-03 10:47:56] LOGIN: test SUCCESS
+[2025-06-03 10:47:57] RESULTS requested
+[2025-06-03 10:48:11] Loaded 15 users
+[2025-06-03 10:48:11] LOGIN: yy SUCCESS
+[2025-06-03 10:52:33] Loaded 15 users
+[2025-06-03 10:52:33] Loaded 3 votes
+[2025-06-03 10:52:33] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 10:52:39] New connection from /127.0.0.1
+[2025-06-03 10:52:42] Loaded 15 users
+[2025-06-03 10:52:42] LOGIN: test SUCCESS
+[2025-06-03 10:52:43] RESULTS requested
+[2025-06-03 10:52:47] Loaded 15 users
+[2025-06-03 10:52:47] LOGIN: yy SUCCESS
+[2025-06-03 10:52:49] Saved vote: yy -> Charlie
+[2025-06-03 10:52:49] VOTE: yy -> Charlie
+[2025-06-03 10:52:49] RESULTS requested
+[2025-06-03 11:27:30] Loaded 15 users
+[2025-06-03 11:27:30] Loaded 4 votes
+[2025-06-03 11:27:30] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 11:27:34] New connection from /127.0.0.1
+[2025-06-03 11:27:37] Loaded 15 users
+[2025-06-03 11:27:37] LOGIN: test SUCCESS
+[2025-06-03 11:27:38] RESULTS requested
+[2025-06-03 11:27:50] Loaded 16 users
+[2025-06-03 11:27:50] LOGIN: www SUCCESS
+[2025-06-03 11:28:21] New connection from /127.0.0.1
+[2025-06-03 11:28:23] Loaded 16 users
+[2025-06-03 11:28:23] LOGIN: test SUCCESS
+[2025-06-03 11:28:24] RESULTS requested
+[2025-06-03 11:28:27] Loaded 16 users
+[2025-06-03 11:28:27] LOGIN: www SUCCESS
+[2025-06-03 11:28:30] Saved vote: www -> Charlie
+[2025-06-03 11:28:30] VOTE: www -> Charlie
+[2025-06-03 11:28:30] RESULTS requested
+[2025-06-03 12:03:33] Loaded 16 users
+[2025-06-03 12:03:33] LOGIN: 1 SUCCESS
+[2025-06-03 12:03:34] RESULTS requested
+[2025-06-03 12:09:17] Loaded 16 users
+[2025-06-03 12:09:17] LOGIN: 1 SUCCESS
+[2025-06-03 12:09:18] RESULTS requested
+[2025-06-03 12:24:05] Loaded 17 users
+[2025-06-03 12:24:05] LOGIN: anas SUCCESS
+[2025-06-03 12:24:10] Saved vote: anas -> Charlie
+[2025-06-03 12:24:10] VOTE: anas -> Charlie
+[2025-06-03 12:24:10] RESULTS requested
+[2025-06-03 13:01:56] Loaded 17 users
+[2025-06-03 13:01:56] Loaded 6 votes
+[2025-06-03 13:01:56] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 13:02:04] New connection from /127.0.0.1
+[2025-06-03 13:02:08] Loaded 17 users
+[2025-06-03 13:02:08] LOGIN: admin FAILED
+[2025-06-03 13:02:19] Loaded 18 users
+[2025-06-03 13:02:19] LOGIN: test1 SUCCESS
+[2025-06-03 13:03:04] New connection from /127.0.0.1
+[2025-06-03 13:03:07] Loaded 18 users
+[2025-06-03 13:03:07] LOGIN: test SUCCESS
+[2025-06-03 13:03:08] RESULTS requested
+[2025-06-03 13:03:13] Loaded 18 users
+[2025-06-03 13:03:13] LOGIN: test1 SUCCESS
+[2025-06-03 13:03:34] New connection from /127.0.0.1
+[2025-06-03 13:03:39] Loaded 18 users
+[2025-06-03 13:03:39] LOGIN: admin FAILED
+[2025-06-03 13:03:45] Loaded 19 users
+[2025-06-03 13:03:45] LOGIN: admin SUCCESS
+[2025-06-03 13:03:45] RESULTS requested
+[2025-06-03 13:03:48] RESULTS requested
+[2025-06-03 13:03:49] RESULTS requested
+[2025-06-03 13:03:49] RESULTS requested
+[2025-06-03 13:03:49] RESULTS requested
+[2025-06-03 13:03:57] RESULTS requested
+[2025-06-03 13:04:01] RESULTS requested
+[2025-06-03 13:04:04] RESULTS requested
+[2025-06-03 13:04:17] Loaded 19 users
+[2025-06-03 13:04:17] LOGIN: ui SUCCESS
+[2025-06-03 13:04:18] RESULTS requested
+[2025-06-03 13:04:28] Loaded 20 users
+[2025-06-03 13:04:28] LOGIN: 32323 SUCCESS
+[2025-06-03 13:04:58] New connection from /127.0.0.1
+[2025-06-03 13:05:03] Loaded 20 users
+[2025-06-03 13:05:03] LOGIN: test SUCCESS
+[2025-06-03 13:05:04] RESULTS requested
+[2025-06-03 13:05:08] Loaded 20 users
+[2025-06-03 13:05:08] LOGIN: admin SUCCESS
+[2025-06-03 13:05:08] RESULTS requested
+[2025-06-03 13:33:38] Loaded 21 users
+[2025-06-03 13:33:38] LOGIN: 6 SUCCESS
+[2025-06-03 13:51:46] Loaded 21 users
+[2025-06-03 13:51:46] Loaded 6 votes
+[2025-06-03 13:51:46] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 13:51:50] New connection from /127.0.0.1
+[2025-06-03 13:51:53] Loaded 21 users
+[2025-06-03 13:51:53] LOGIN: 3 FAILED
+[2025-06-03 13:52:01] Loaded 22 users
+[2025-06-03 13:52:01] LOGIN: 7 SUCCESS
+[2025-06-03 13:52:02] Saved vote: 7 -> Charlie
+[2025-06-03 13:52:02] VOTE: 7 -> Charlie
+[2025-06-03 13:52:02] RESULTS requested
+[2025-06-03 13:53:06] Loaded 22 users
+[2025-06-03 13:53:06] LOGIN: 1 SUCCESS
+[2025-06-03 13:53:07] RESULTS requested
+[2025-06-03 13:53:15] Loaded 22 users
+[2025-06-03 13:53:15] LOGIN: admin SUCCESS
+[2025-06-03 13:53:15] RESULTS requested
+[2025-06-03 15:48:41] Loaded 22 users
+[2025-06-03 15:48:41] Loaded 7 votes
+[2025-06-03 15:48:41] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 15:48:45] New connection from /127.0.0.1
+[2025-06-03 15:48:49] Loaded 22 users
+[2025-06-03 15:48:49] LOGIN: admin SUCCESS
+[2025-06-03 15:48:49] RESULTS requested
+[2025-06-03 15:48:51] RESULTS requested
+[2025-06-03 15:48:54] RESULTS requested
+[2025-06-03 15:48:58] Loaded 22 users
+[2025-06-03 15:48:58] LOGIN: t FAILED
+[2025-06-03 15:49:02] Loaded 23 users
+[2025-06-03 15:49:02] LOGIN: t SUCCESS
+[2025-06-03 15:49:04] Saved vote: t -> Alice
+[2025-06-03 15:49:04] VOTE: t -> Alice
+[2025-06-03 15:49:04] RESULTS requested
+[2025-06-03 15:49:06] Loaded 23 users
+[2025-06-03 15:49:06] LOGIN: t SUCCESS
+[2025-06-03 15:49:07] RESULTS requested
+[2025-06-03 15:49:14] Loaded 24 users
+[2025-06-03 15:49:14] LOGIN: 5 SUCCESS
+[2025-06-03 15:49:19] Saved vote: 5 -> Charlie
+[2025-06-03 15:49:19] VOTE: 5 -> Charlie
+[2025-06-03 15:49:19] RESULTS requested
+[2025-06-03 15:49:22] Loaded 24 users
+[2025-06-03 15:49:22] LOGIN: 5 SUCCESS
+[2025-06-03 15:49:54] Loaded 24 users
+[2025-06-03 15:49:54] Loaded 9 votes
+[2025-06-03 15:49:54] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-03 15:50:00] New connection from /127.0.0.1
+[2025-06-03 15:50:02] Loaded 24 users
+[2025-06-03 15:50:02] LOGIN: t SUCCESS
+[2025-06-03 15:50:03] RESULTS requested
+[2025-06-03 15:50:17] Loaded 25 users
+[2025-06-03 15:50:17] LOGIN: 10 SUCCESS
+[2025-06-03 15:50:19] Saved vote: 10 -> Charlie
+[2025-06-03 15:50:19] VOTE: 10 -> Charlie
+[2025-06-03 15:50:19] RESULTS requested
+[2025-06-03 15:50:25] Loaded 25 users
+[2025-06-03 15:50:25] LOGIN: admin SUCCESS
+[2025-06-03 15:50:25] RESULTS requested
+[2025-06-03 15:50:26] RESULTS requested
+[2025-06-03 15:50:26] RESULTS requested
+[2025-06-03 15:50:28] RESULTS requested
+[2025-06-03 15:50:28] RESULTS requested
+[2025-06-03 15:50:43] New connection from /127.0.0.1
+[2025-06-03 15:50:53] Loaded 26 users
+[2025-06-03 15:50:53] LOGIN: 99 SUCCESS
+[2025-06-03 15:50:56] Saved vote: 99 -> Charlie
+[2025-06-03 15:50:56] VOTE: 99 -> Charlie
+[2025-06-03 15:50:56] RESULTS requested
+[2025-06-03 15:50:59] RESULTS requested
+[2025-06-05 09:25:43] Loaded 26 users
+[2025-06-05 09:25:43] Loaded 11 votes
+[2025-06-05 09:25:43] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-05 09:25:51] New connection from /127.0.0.1
+[2025-06-05 09:25:55] Loaded 26 users
+[2025-06-05 09:25:55] LOGIN: admin SUCCESS
+[2025-06-05 09:25:55] RESULTS requested
+[2025-06-05 09:26:00] Votes reset by admin
+[2025-06-05 09:26:01] RESULTS requested
+[2025-06-05 09:26:02] RESULTS requested
+[2025-06-05 09:26:04] Votes reset by admin
+[2025-06-05 09:26:09] Loaded 26 users
+[2025-06-05 09:26:09] LOGIN: t SUCCESS
+[2025-06-05 09:26:10] Saved vote: t -> Alice
+[2025-06-05 09:26:10] VOTE: t -> Alice
+[2025-06-05 09:26:10] RESULTS requested
+[2025-06-05 09:45:11] Loaded 26 users
+[2025-06-05 09:45:11] Loaded 1 votes
+[2025-06-05 09:45:11] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-05 09:45:17] New connection from /127.0.0.1
+[2025-06-12 16:42:52] Loaded 27 users
+[2025-06-12 16:42:52] Loaded 1 votes
+[2025-06-12 16:42:52] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-12 16:43:02] New connection from /127.0.0.1
+[2025-06-12 16:43:31] Loaded 28 users
+[2025-06-12 16:43:31] LOGIN: zaid FAILED
+[2025-06-12 16:43:36] Loaded 28 users
+[2025-06-12 16:43:36] LOGIN: zaid2004 SUCCESS
+[2025-06-12 16:44:17] Saved vote: zaid2004 -> Charlie
+[2025-06-12 16:44:17] VOTE: zaid2004 -> Charlie
+[2025-06-12 16:44:17] RESULTS requested
+[2025-06-12 16:44:24] Loaded 28 users
+[2025-06-12 16:44:24] LOGIN: zaid2004 SUCCESS
+[2025-06-12 16:44:26] RESULTS requested
+[2025-06-12 16:44:33] Loaded 28 users
+[2025-06-12 16:44:33] LOGIN: admin SUCCESS
+[2025-06-12 16:44:33] RESULTS requested
+[2025-06-12 16:44:38] RESULTS requested
+[2025-06-12 16:44:38] RESULTS requested
+[2025-06-12 16:44:38] RESULTS requested
+[2025-06-12 16:44:38] RESULTS requested
+[2025-06-12 16:44:39] RESULTS requested
+[2025-06-12 16:44:39] RESULTS requested
+[2025-06-12 16:44:39] RESULTS requested
+[2025-06-12 16:44:39] RESULTS requested
+[2025-06-12 16:44:42] Votes reset by admin
+[2025-06-14 11:51:18] New connection from /127.0.0.1
+[2025-06-14 11:56:37] New connection from /127.0.0.1
+[2025-06-14 11:56:54] Loaded 28 users
+[2025-06-14 11:56:54] LOGIN: test SUCCESS
+[2025-06-14 11:56:57] Saved vote: test -> Charlie
+[2025-06-14 11:56:57] VOTE: test -> Charlie
+[2025-06-14 11:56:57] RESULTS requested
+[2025-06-14 11:57:03] New connection from /127.0.0.1
+[2025-06-14 11:57:15] New connection from /127.0.0.1
+[2025-06-14 11:57:44] New connection from /127.0.0.1
+[2025-06-15 14:41:36] Loaded 28 users
+[2025-06-15 14:41:36] Loaded 1 votes
+[2025-06-15 14:41:36] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-15 14:41:45] New connection from /127.0.0.1
+[2025-06-15 14:41:53] Loaded 28 users
+[2025-06-15 14:41:53] LOGIN: test SUCCESS
+[2025-06-15 14:41:55] RESULTS requested
+[2025-06-15 14:42:05] Loaded 29 users
+[2025-06-15 14:42:05] LOGIN: ada SUCCESS
+[2025-06-15 14:42:11] Saved vote: ada -> Bob
+[2025-06-15 14:42:11] VOTE: ada -> Bob
+[2025-06-15 14:42:11] RESULTS requested
+[2025-06-15 14:42:14] Loaded 29 users
+[2025-06-15 14:42:14] LOGIN: ada SUCCESS
+[2025-06-15 14:42:16] RESULTS requested
+[2025-06-15 14:42:24] Loaded 30 users
+[2025-06-15 14:42:24] LOGIN: adaq SUCCESS
+[2025-06-15 14:42:31] Saved vote: adaq -> Charlie
+[2025-06-15 14:42:31] VOTE: adaq -> Charlie
+[2025-06-15 14:42:31] RESULTS requested
+[2025-06-15 14:42:37] Loaded 30 users
+[2025-06-15 14:42:37] LOGIN: admin SUCCESS
+[2025-06-15 14:42:37] RESULTS requested
+[2025-06-16 13:16:22] Loaded 30 users
+[2025-06-16 13:16:22] Loaded 3 votes
+[2025-06-16 13:16:22] Server started on port 12345 | Voting deadline: 2025-06-18T18:00
+[2025-06-16 13:16:31] New connection from /127.0.0.1
+[2025-06-16 13:27:47] New connection from /127.0.0.1
+[2025-06-16 13:56:01] Loaded 31 users
+[2025-06-16 13:56:01] LOGIN: marwane SUCCESS
+[2025-06-16 13:56:07] Saved vote: marwane -> Alice
+[2025-06-16 13:56:07] VOTE: marwane -> Alice
+[2025-06-16 13:56:07] RESULTS requested
+[2025-06-16 13:56:16] Loaded 31 users
+[2025-06-16 13:56:16] LOGIN: admin SUCCESS
+[2025-06-16 13:56:16] RESULTS requested
+[2025-06-16 13:56:18] RESULTS requested
+[2025-06-16 13:56:19] RESULTS requested
+[2025-06-16 13:56:19] RESULTS requested
+[2025-06-16 13:56:22] Votes reset by admin
+[2025-06-16 13:56:23] RESULTS requested
+[2025-06-16 13:56:23] RESULTS requested
